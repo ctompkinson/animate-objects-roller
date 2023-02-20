@@ -15,8 +15,7 @@ const Wrapper = styled.div`
 function App() {
   return (
     <Wrapper>
-      <h2>Animate Object Roller</h2>
-      <h4>Helps you to roll for the spell animate object</h4>
+      <h3>Animate Object Roller</h3>
       <Roller />
     </Wrapper>
   );

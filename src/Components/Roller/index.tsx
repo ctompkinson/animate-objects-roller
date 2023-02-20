@@ -114,7 +114,7 @@ const Roller = () => {
         </FormGroup>
         <Button color="primary" onClick={() => rollDice(objCount)}>Roll Dice</Button>
       </Form>
-      <div className="mt-4">
+      {totalDamage !== 0 && <div className="mt-4">
         <Table>
           <thead>
             <tr>
@@ -131,8 +131,8 @@ const Roller = () => {
             ))}
           </tbody>
         </Table>
-        {totalDamage !== 0 && <div><h3>Total Damage: {totalDamage}</h3></div>}
-      </div>
+        <div><h3>Total Damage: {totalDamage}</h3></div>
+      </div>}
     </Container>
   );
 };

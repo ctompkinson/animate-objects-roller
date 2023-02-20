@@ -4,13 +4,12 @@ import Roller from "./Components/Roller";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-  min-width: 500px;
-  width: 500px;
+  width: 350px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: left;
+  text-align: center;
 `
 
 function App() {
